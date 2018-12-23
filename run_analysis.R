@@ -19,6 +19,7 @@ activityLabels = read.table("./UCI HAR Dataset/activity_labels.txt")
 colnames(xtrain) = features[,2]
 colnames(ytrain) = "activityId"
 colnames(subject_train) = "subjectId"
+
 #Create Sanity and column values to the test data
 colnames(xtest) = features[,2]
 colnames(ytest) = "activityId"
